@@ -48,8 +48,8 @@ import cv2
 import numpy as np
 from os import listdir
 from os.path import isfile, join
-monkey_breeds_dict = {"[0]": "marty", "[1]": "john-el","[2]": "joe","[3]": "mada","[4]": "maddy"}
-monkey_breeds_dict_n = {"n0": "marty", "n1": "john-el","n2": "joe","n3": "mada","n4": "maddy"}
+monkey_breeds_dict = {"[0]": "joe", "[1]": "john-el","[2]": "maddy","[3]": "mada","[4]": "marty"}
+monkey_breeds_dict_n = {"n0": "joe", "n1": "john-el","n2": "maddy","n3": "mada","n4": "marty"}
 def draw_test(name, pred, im):
     monkey = monkey_breeds_dict[str(pred)]
     BLACK = [0,0,0]
